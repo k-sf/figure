@@ -1,0 +1,45 @@
+html,body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrapper{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#controls{
+    width: 350px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #8f8f8f;
+    border: solid black 2px;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coord-input{
+    width: 30%;
+}
+input{
+    padding: 4px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+}

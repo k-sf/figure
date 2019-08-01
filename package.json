@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.1",
+    "gulp-autoprefixer": "*",
+    "gulp-connect": "*",
+    "gulp-cssmin": "*",
+    "gulp-sass": "*",
+    "gulp-rigger": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "*",
+    "imagemin-pngquant": "*",
+    "opn": "*",
+    "rimraf": "*"
+  },
+  "dependencies": {
+    "browser-sync": "^2.9.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-webserver": "^0.9.1"
+  }
+}

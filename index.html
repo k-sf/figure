@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimal-ui"/>
+    <link rel="stylesheet" href="/style/main.css"/>
+</head>
+<body>
+<div id="ThreeJS" class="wrapper">
+</div>
+<div id="controls">
+    <div class="row">
+        <h3>Параметры фигуры:</h3>
+    </div>
+    <div class="row">
+        <label for="cylinder-count">Кол-во цилиндров:</label>
+        <input type="text" id="cylinder-count" value="100"/>
+    </div>
+    <div class="row">
+        <label for="cylinder-radius">Радиус цилиндра:</label>
+        <input type="text" id="cylinder-radius" value="0.2"/>
+    </div>
+    <div class="row">
+        <label for="cylinder-height">Высота цилиндра:</label>
+        <input type="text" id="cylinder-height" value="40"/>
+    </div>
+    <div class="row">
+        <label for="round-radius">Радиус круга:</label>
+        <input type="text" id="round-radius" value="50"/>
+    </div>
+    <div class="row">
+        <label for="cylinder-round-radius">Радиус круга на сфере:</label>
+        <input type="text" id="cylinder-round-radius" value="0.5"/>
+    </div>
+    <div class="row">
+        <label for="cylinder-round-radius">Цвет:</label>
+        <input type="text" id="cylinder-color" value="rgb(0, 0, 255)"/>
+    </div>
+    <br>
+    <div class="row">
+        <h3>Координаты камеры</h3>
+    </div>
+    <div class="row">
+        <label for="cylinder-count">X:</label>
+        <input type="text" id="camera-x" value="0" disabled/>
+    </div>
+    <div class="row">
+        <label for="cylinder-count">Y:</label>
+        <input type="text" id="camera-y" value="100" disabled/>
+    </div>
+    <div class="row">
+        <label for="cylinder-count">Z:</label>
+        <input type="text" id="camera-z" value="300" disabled/>
+    </div>
+
+    <button id="do-zbs">Try it!</button>
+
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/three.min.js"></script>
+<script type="text/javascript" src="js/Stats.js"></script>
+<script type="text/javascript" src="js/OrbitControls.js"></script>
+<script type="text/javascript" src="js/Projector.js"></script>
+<script type="text/javascript" src="js/threex.dynamictexture.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script src="js/Detector.js"></script>
+
+<!--<script type="text/javascript" src="/js/scene.js"></script>-->
+<script type="text/javascript" src="js/test.js"></script>
+
+</body>
+</html>
